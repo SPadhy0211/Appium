@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test2(failed)">
+    <parameter name="port" value="4724"/>
+    <parameter name="deviceName" value="iQOOZ6Lite5G"/>
+    <parameter name="UDID" value="10BD5617T1000TD"/>
+    <classes>
+      <class name="com.GeneralStore.TestScripts.CrossBrowserTest">
+        <methods>
+          <include name="crossBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.GeneralStore.TestScripts.CrossBrowserTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
